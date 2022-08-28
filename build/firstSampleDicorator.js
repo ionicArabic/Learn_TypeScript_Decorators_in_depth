@@ -8,9 +8,12 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 let sampleDecorator = (constructor) => {
     console.log("Student class is getting excuted");
 };
+/* function sampleDecorator(constructor: Function) {
+    console.log("Student class is getting excuted");
+} */
 let Student = class Student {
     constractor() {
-        console.log('Object created');
+        console.log("Object created");
     }
 };
 Student = __decorate([

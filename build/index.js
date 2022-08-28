@@ -6,3 +6,4 @@ function hello(who = world) {
     return `Hello ${who}! `;
 }
 exports.hello = hello;
+//npx tsc -w  
